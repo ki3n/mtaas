@@ -16,7 +16,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '-ph6$u$)y3qao%68a4&8jg1e5&_$nvtc$ov+&09^*@(z2o59=s'
+SECRET_KEY = 'AWS_Secret_Key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -92,5 +92,5 @@ STATICFILES_DIRS = (
 # aws credentials
 
 
-aws_accesskey_id = "AKIAJUXHEA5GLJGZ7WEQ"
-aws_secretaccess_key = "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"
+aws_accesskey_id = "AWS_Secret_KeyID"
+aws_secretaccess_key = "AWS_Secret_Key"
